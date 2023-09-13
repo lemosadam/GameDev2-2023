@@ -5,12 +5,13 @@ using UnityEngine;
 public class Character : MonoBehaviour
 { private CharacterController characterController;
 
-
+    public bool isPowered;
     [SerializeField] protected float speed = 5f;
     // Start is called before the first frame update
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        isPowered = false;
     }
 
 
