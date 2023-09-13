@@ -11,7 +11,7 @@ public class SphereScript : MonoBehaviour
     void Start()
     {
 
-        gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        
         
     }
 
